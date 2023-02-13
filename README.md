@@ -9,5 +9,7 @@ This project was made for computer games and simulation course.
 
 Animation-based finite state machine was used in this project, our character's animations such as jump, idle, running are running their own codes, so I aimed to prevent unnecessary update calls and performance problems on mobile devices.
 
+Statedata is a class of scriptable objects and represents a state, our class characterStateBase maintains a list of statedata so I can run multiple states in one animation.
+
 ![image](https://user-images.githubusercontent.com/48649947/218387009-01e40a10-1276-474d-a866-4f7db898861f.png)
 ![image](https://user-images.githubusercontent.com/48649947/218387316-aab6fd79-211d-47d9-8440-feaaed3e422f.png)
